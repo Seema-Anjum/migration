@@ -2,7 +2,7 @@ const express = require('express');
 const {open} = require('sqlite');
 const sqlite3 = require('sqlite3');
 const path = require('path');
-// Removed unused 'get' import from 'http'
+
 const cors = require('cors');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken')
